@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T01:48:50.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" version="21.6.5" etag="Yh0j8rG8SwuO_gUdzHCd" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T02:35:45.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="rxlPU4dR8UAwA4dJaF00" version="21.6.5" type="github">
   <diagram name="第 1 页" id="ncQlgQyrDYqHD5AQEKXS">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KDDcq_pMTNni44j4f5ql-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KDDcq_pMTNni44j4f5ql-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-3" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KDDcq_pMTNni44j4f5ql-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KDDcq_pMTNni44j4f5ql-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-6" value="点击x号退出？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KDDcq_pMTNni44j4f5ql-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-8" value="此时窗口设置为HIDE,同时设置窗口显示标志位为false，SetEvent停止下载中的任务，所有线程池等待退出，" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-9" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-10" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-11" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="120" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KDDcq_pMTNni44j4f5ql-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KDDcq_pMTNni44j4f5ql-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-13" value="是否有安装任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-14" value="等待当前安装任务完成后退出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="290" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-15" value="(tray使得主进程退出)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDDcq_pMTNni44j4f5ql-18" value="直接showWindow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
